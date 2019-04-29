@@ -13,10 +13,10 @@
   - What are the new dataset we adding in surface dataset for v2?
     - Irrigation fraction (for ELM irrigation/crop module)
     - Sediment transport model:
-      - slope (for sediment transport)
-      - Soil gravel content
-      - 3 spatially heterogenous parameters
-      - Soil depth
+      - slope (for sediment transport) -- raw data not available
+      - Soil gravel content -- raw data available
+      - 3 spatially heterogenous parameters -- raw data not available
+      - Soil depth -- raw data available
 
   - Should we create a standard method for creating netcdf file for MOSART?
    - River network parameters (resolution specific)
