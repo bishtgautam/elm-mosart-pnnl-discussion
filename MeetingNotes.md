@@ -6,6 +6,7 @@
     - MOSART also has different parameter files for different compsets. Do we need to support all of different parameter files through official E3SM scripts?
     
   - Process of adding new surface dataset
+    - Confluence page describing the surface dataset generation is available [here](https://acme-climate.atlassian.net/wiki/spaces/ED/pages/17498263/CLM4.5+dataset+for+year+1850+at+ne120np4+resolution)
     - Generate 16 mapping files via ESMF_RegridWeightGen
     - Generate surface dataset mksurfdata_map
 
