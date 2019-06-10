@@ -35,3 +35,72 @@
 		- Yes.
 
 - Running tests on Constance (DID NOT GET TO IT)
+
+# June 10, 2019
+
+- V2 PRs
+	- Zeli: 
+		- Soil erosion transport for ELM
+		- Status:
+			- Code review started: https://acme-climate.atlassian.net/wiki/spaces/ED/pages/976486494/B1+Soil+Erosion
+			- Baseline tests
+			- Need to run some global simulation for performance
+			- Creating surface datasets to run global
+				- Have generated the raw datasets
+				- Issue with a netcdf file on NERSC
+			- Next step: Run mksurfdata_map on constance instead of Cori.
+
+	- Tian: 
+		- 	Water managment for MOSART
+			-  Two features:
+				-  MOSART-WM 
+				-  MOSART-WM 
+			-  MOSART-innundation
+			-  Code review page created https://acme-climate.atlassian.net/wiki/spaces/ED/pages/981074560/W3+Water+management+and+flood+inundation
+			-  Running I-tests
+			-  Have a branch
+
+		-  2-way ELM-MOSART coupling for irrigation
+			-  Still need to work on this one
+
+	- Hong-Yi: 
+		- 	Sediment transport for MOSART
+		-  MOSART Heat (more ready)
+		-  Did not modify any ELM code
+		-  Has not create the code review yet
+		-  Work depends more on Tian's branch than Zeli's branch
+		-  Will coordinate offline with Tian
+
+	-  Teklu, Micheal:
+		-  Atm. downscaling (P, T, othes) for ELM. Code is implemented, but need to test the new code
+		-  Working on read/write of new dimension in surface dataset (topo-unit dim.)
+		-  Issue: Changing the structure/dim of variables that is being used by other subroutines. How to ensure the changes don't break other code.
+		-  One PR will be issued
+		-  A code review page needs to be created
+
+	- Yilin 
+		- Plant hydraulics
+		- Code is ready for PR
+		- Code review page: https://acme-climate.atlassian.net/wiki/spaces/ED/pages/976946346/W2+-+Plant+Hydraulics
+
+
+- Data structure refactor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
