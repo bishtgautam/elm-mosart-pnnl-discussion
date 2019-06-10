@@ -26,3 +26,12 @@
 - Code review process (DID NOT GET TO IT)
 
 - Running tests on Constance (DID NOT GET TO IT)
+
+# May 13, 2019
+
+- Code review process:
+	- Website: https://acme-climate.atlassian.net/wiki/spaces/ED/pages/29754189/Code+Review+Process+Implementation
+	- Zeli: Do we need to have new physics working for a global grid when we issue a new PR?
+		- Yes.
+
+- Running tests on Constance (DID NOT GET TO IT)
